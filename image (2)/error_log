@@ -1,0 +1,18 @@
+[28-Apr-2022 21:24:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hchpxq80/public_html/librairies/fonction.php on line 46
+[28-Apr-2022 21:24:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on bool in /home/hchpxq80/public_html/librairies/fonction.php:50
+Stack trace:
+#0 /home/hchpxq80/public_html/index.php(7): connecterBD(false)
+#1 {main}
+  thrown in /home/hchpxq80/public_html/librairies/fonction.php on line 50
+[28-Apr-2022 21:24:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hchpxq80/public_html/librairies/fonction.php on line 46
+[28-Apr-2022 21:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on bool in /home/hchpxq80/public_html/librairies/fonction.php:50
+Stack trace:
+#0 /home/hchpxq80/public_html/produit.php(7): connecterBD(false)
+#1 {main}
+  thrown in /home/hchpxq80/public_html/librairies/fonction.php on line 50
+[28-Apr-2022 21:24:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hchpxq80/public_html/librairies/fonction.php on line 46
+[28-Apr-2022 21:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on bool in /home/hchpxq80/public_html/librairies/fonction.php:50
+Stack trace:
+#0 /home/hchpxq80/public_html/produit.php(7): connecterBD(false)
+#1 {main}
+  thrown in /home/hchpxq80/public_html/librairies/fonction.php on line 50
